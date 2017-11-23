@@ -4,7 +4,7 @@ class Ship
   @@all = []
 
   def initialize(name, type, booty)
-    @name = name
+    @name = params[:name]
     @type = type
     @booty = booty
 
