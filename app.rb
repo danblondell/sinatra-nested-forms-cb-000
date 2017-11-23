@@ -17,7 +17,7 @@ module FormsLab
       @pirate = Pirate.new(params[:pirate])
       @ship = Ship.new(params[:pirate][:ship])
 
-      erb :show
+      erb "pirates/show
     end
 
 
