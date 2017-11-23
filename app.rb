@@ -13,7 +13,7 @@ module FormsLab
       erb :"pirates/new"
     end
 
-    get '/pirates' do
+    post '/pirates' do
       @pirate = Pirate.new(pirate)
       @ship_1 = Ship.new(pirate[ships][])
       @ship_2 = Ship.new(pirate[ships][])
